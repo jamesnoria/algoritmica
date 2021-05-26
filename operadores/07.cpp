@@ -8,7 +8,7 @@ int main()
 {
     float dist, vel, tie;
     cout << "Inserte la velocidad del movil: ";
-    cin >> dist;
+    cin >> vel;
     cout << "Inserte el tiempo del movil: ";
     cin >> tie;
     dist = vel * (tie/60);

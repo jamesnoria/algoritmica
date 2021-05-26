@@ -10,7 +10,7 @@ int main()
     float peso, estatura, imc;
     cout << "Inserte su peso (kgs): ";
     cin >> peso;
-    cout << "Inserte su estatura (mt2): ";
+    cout << "Inserte su estatura (mts): ";
     cin >> estatura;
     imc = peso / pow(estatura,2);
     // Redondeamos el valor del imc final:
