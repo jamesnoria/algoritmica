@@ -8,23 +8,23 @@ using namespace std;
 
 int main()
 {
-    float ta1, ta2, ta3, ta4, emc, efc;
+    float t1, t2, t3, t4, emc, efc;
     float t_promedio, promedio;
-    cout << "TA-01: ";
-    cin >> ta1;
-    cout << "TA-02: ";
-    cin >> ta2;
-    cout << "TA-03: ";
-    cin >> ta3;
-    cout << "TA-04: ";
-    cin >> ta4;
-    cout << "EMC: ";
+    cout << "Ingrese la nota de su TAREA 01 ";
+    cin >> t1;
+    cout << "Ingrese la nota de su TAREA 02 ";
+    cin >> t2;
+    cout << "Ingrese la nota de su TAREA 03 ";
+    cin >> t3;
+    cout << "Ingrese la nota de su TAREA 04 ";
+    cin >> t4;
+    cout << "Ingrese la nota del EXAMEN DE MEDIO CURSO: ";
     cin >> emc;
-    cout << "EFC: ";
+    cout << "Ingrese la nota del EXAMEN FINAL: ";
     cin >> efc;
-    t_promedio = (ta1 + ta2 + ta3 + ta4)/4;
+    t_promedio = (t1 + t2 + t3 + t4)/4;
     promedio = (t_promedio*0.6)+(emc*0.15)+(efc*0.25);
-    cout << "El promedio general es: " << promedio;
+    cout << "El promedio final es: " << promedio;
 
     return 0;
 }

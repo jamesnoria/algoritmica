@@ -6,12 +6,14 @@ using namespace std;
 
 int main()
 {
-    float cambio, soles;
+    float cambio, soles, valor;
     cout << "Inserte la cantidad a convertir: ";
     cin >> soles;
-    cambio = soles / 3.69;
+    cout << "Inserte el cambio actual: ";
+    cin >> cambio;
+    valor = soles / cambio;
     // Reduciendo decimales a dos:
-    cout << "S/." << soles << " son: $" << setprecision(3) << cambio;
+    cout << "S/." << soles << " es igual a: " << fixed << setprecision(2) << valor << " dolares";
 
     return 0;
 }

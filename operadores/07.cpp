@@ -6,13 +6,13 @@ using namespace std;
 
 int main()
 {
-    float dist, vel, tie;
+    float distancia, velocidad, tiempo;
     cout << "Inserte la velocidad del movil: ";
-    cin >> vel;
+    cin >> velocidad;
     cout << "Inserte el tiempo del movil: ";
-    cin >> tie;
-    dist = vel * (tie/60);
-    cout << "MRU: " << dist << "km.";
+    cin >> tiempo;
+    distancia = velocidad * (tiempo/60);
+    cout << "MRU: " << distancia << "km.";
 
     return 0;
 }

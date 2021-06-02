@@ -1,3 +1,4 @@
-soles = float(input('Inserte la cantidad en soles a convertir: '))
-cambio = soles / 3.69
-print(f'S/.{soles} son: ${round(cambio, 2)}')
+soles = float(input('Inserte la cantidad a convertir: '))
+cambio = float(input('Inserte el cambio actual: '))
+valor = soles / cambio
+print(f'S/.{soles} es igual a: {round(valor,2)} dolares')

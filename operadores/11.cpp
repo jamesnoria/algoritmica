@@ -10,7 +10,7 @@ int main()
     cout << "Ingrese el salario actual del obrero: ";
     cin >> salario_actual;
     salario_nuevo = salario_actual + (salario_actual*0.25);
-    cout << "El nuevo salario es: s/." << salario_nuevo;
+    cout << "El nuevo salario del obrero con el 25% incluido es: " << salario_nuevo;
 
     return 0;
 }

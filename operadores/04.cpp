@@ -5,12 +5,12 @@ using namespace std;
 
 int main()
 {
-    int hr, min, seg;
+    int horas, minutos, segs;
     cout << "Inserte la hora a convertir ";
-    cin >> hr;
-    min = hr * 60;
-    seg = hr * 3600;
-    cout << hr << " -> MIN: " << min << " -> SEG: " << seg;
+    cin >> horas;
+    minutos = horas * 60;
+    segs = horas * 3600;
+    cout << horas << " -> MIN: " << minutos << " -> SEG: " << segs;
 
     return 0;
 }

@@ -13,9 +13,9 @@ int main()
     cin >> cant_pan;
     precio_desc = 3.49 - (3.49*0.6);
     desc_total = cant_pan * precio_desc;
-    cout << "El precio de un pan es: $3.49\n";
-    cout << "El precio cuando NO es del dia es de -60%\n";
-    cout << "El descuento es: " << desc_total;
+    cout << "El precio habitual de un pan es: $3.49\n";
+    cout << "El precio cuando NO es del dia es del -60%\n";
+    cout << "El descuento total por " << cant_pan << " de panes, es " << desc_total;
 
     return 0;
 }
