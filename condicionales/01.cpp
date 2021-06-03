@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int num;
-    cout << "Inserte un numero entero: ";
+    cout << "Inserte un numero: ";
     cin >> num;
     if (num < 0)
     {

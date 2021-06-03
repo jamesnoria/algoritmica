@@ -1,35 +1,19 @@
-// Leer la edad de una persona y escriba el mensaje respectivo si es mayor o menor de edad.
-
 #include "iostream"
 using namespace std;
 
 int main()
 {
-    int edad1, edad2, edad3;
-    int menor, inter, mayor;
-    cout << "Inserte la primera edad: ";
-    cin >> edad1;
-    cout << "Inserte la segunda edad: ";
-    cin >> edad2;
-    cout << "Inserte la tercera edad: ";
-    cin >> edad3;
-    if (edad1 > edad2)
+    int person_age;
+    cout << "Hola, ingrese su edad por favor\n";
+    cin >> person_age;
+    if (person_age >= 18)
     {
-        if (edad1 > edad3)
-        {
-            mayor = edad1;
-        }
-        else
-        {
-            mayor = edad3;
-        }
-    }
-    else if (edad2>edad3)
-    {
-        mayor = edad2;
+        cout << "Usted es MAYOR DE EDAD";
     }
     else
     {
-        mayor = edad3;
+        cout << "Usted es MENOR DE EDAD";
     }
+
+    return 0;
 }
