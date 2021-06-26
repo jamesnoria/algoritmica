@@ -1,0 +1,26 @@
+Imprimir "Cuantas edades le gustaría ingresar"
+Leer edad
+cont = 1
+may = 0
+men = 0
+MQ (cont <= edad)
+ Imprimir "EDAD ", cont
+ Leer edad_n
+MQ (edad_n < 1 o edad_n > 120)
+ Imprimir "RANGO DE EDAD: 1 a 120"
+ Imprimir "Ingrese edad nuevamente"
+ Leer edad_n
+Fin Mientras
+Si (cont == 1)
+ may = edad_n
+ men = edad_n
+SiNo
+ Si (edad_n > may)
+ may = edad_n
+Si (edad_n < men)
+ men = edad_n
+cont = cont +1
+Fin Mientras
+
+Imprimir "El menor de las edades ingresadas es: ", men
+Imprimir "El mayor de las edades ingresadas es: ", may
